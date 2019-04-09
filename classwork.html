@@ -5,7 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Motorcycles</title>
     <link rel="stylesheet" href="main.css">
-    
+    <style>
+      * {
+        box-sizing: border-box;
+      }     
+      .row {
+        display: flex;
+      }
+      .column {
+        flex: 50%;
+        padding: 10px;
+
+      }
+      body{
+        background-image: "b1.jpg" 
+      }
+      </style>
   </head>
   <body>
       <div class="topnav"> <a href="index.html">Home</a> <a href="College.html">College</a>
@@ -13,5 +28,14 @@
     <div style="padding-left:35px; color:white ">
     <H1>Here I will talk about my class work</H1>
     <p>Unfortunatly over the winter break I got a new laptop so I am unable to show you assignments from previous years, however I will post some of the work I've done in other classes this semester.</p></div>
-
+    <div class="row">
+      <div class="column" style="background-color:#aaa;">
+        <h2>OMIS 462</h2>
+        <p>Some text..</p>
+      </div>
+      <div class="column" style="background-color:#bbb;">
+        <h2>OMIS 340</h2>
+        <p>Some text..</p>
+      </div>
+    </div>
   </body></html>
